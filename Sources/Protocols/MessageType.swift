@@ -38,5 +38,5 @@ public protocol MessageType {
   var kind: MessageKind { get }
 
    /// Status for message delivery
-  var messageStatus: Int { get }
+  var messageStatus: Int { get set }
 }
