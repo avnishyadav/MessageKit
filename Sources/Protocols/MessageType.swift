@@ -36,4 +36,7 @@ public protocol MessageType {
 
   /// The kind of message and its underlying kind.
   var kind: MessageKind { get }
+
+   /// Status for message delivery
+  var messageStatus: Int { get }
 }
